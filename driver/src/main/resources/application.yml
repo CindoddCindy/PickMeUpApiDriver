@@ -1,0 +1,26 @@
+#micronaut:
+  #application:
+    #name: driver
+
+    micronaut:
+  application:
+    name: driver
+  server:
+    port: 8089
+    
+    #8081
+
+---
+datasources:
+  default:
+    url: jdbc:postgresql://localhost:26257/cindy
+    driverClassName: org.postgresql.Driver
+    username: root
+    password: ''
+jpa:
+  default:
+    properties:
+      hibernate:
+        hbm2ddl:
+          auto: update
+
