@@ -69,7 +69,7 @@ public class DriverRepository implements DriverRepositoryInterface {
             if (email.equals("-")==false) c.setEmail(email);
             if (password.equals("-")==false) c.setPassword(password);
             if (driverid.equals("-")==false) c.setDriverId(driverid);
-            if (drivercomname.equals("-")==false) c.setDriverComName(drivercomname);
+            if (drivercompname.equals("-")==false) c.setDriverComName(drivercompname);
 
           //  if (grade != 0) c.setGrade(grade);
             c.setUpdated_At(new Date());
